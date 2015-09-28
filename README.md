@@ -6,22 +6,39 @@ Time spent: ~10.5 hours spent in total
 
 Completed user stories:
 
- * [x] Required: User can tap through the 3 welcome screens.
- ** [x] Required: User can follow the create user flow.
- * [x] Required: On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
- * [x] Required: Before creating the account, user can choose to read the terms of service.
- * [x] Required: After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
- * [x] Required: User can follow the sign in flow.
- * [x] Required: User can tap the area for "Having trouble signing in?"
- * [x] Required: User can log out from the Settings screen.
- * Optional: Add a detail view for one of the files and implement favoriting the file.
- * Optional: Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
- * [x] Optional: You should be able to swipe through the welcome screens instead of just tapping them.
+Static photo tiles on the initial screen
+ * [x] Required: Static photo tiles on the initial screen
+ * [x] Optional: Photo tiles move with scrolling
+ 
+Sign In
+ * [x] Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
+	* [x] User sees an error alert when no email is present or no password is present.
+	* [x] User sees a loading screen upon tapping the Sign In button.
+	* [x] alertController.dismissViewControllerAnimated(true, completion: nil) dismisses the alert controller loading screen with no buttons.
+	* [x] User sees an error alert when entering the wrong email/password combination.
+	* [x] User is taken to the tutorial screens upon entering the correct email/password combination.
+	* [x] Optional: When the keyboard is visible, if the user pulls down on the scrollview, it will dismiss the keyboard.
+	* [x] Optional: On appear, scale the form up and fade it in.
+	
+Tutorial Screens
+ * [x] User can page between the screens
+	* [x] Optional: User can page between the screens with updated dots
+	* [x] Optional: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button
+
+Image Timeline
+ * [x] Display a scrollable view of images
+	* [x] User can tap on the conversations button to see the conversations screen (push)
+	* [x] User can tap on the profile image to see the settings view (modal from below)
+
+Settings
+* [x] User can dismiss the settings screen.
+* [x] User can log out
+
+
  
 Notes:
 
-Researched a little to understand the difference between popviewcontroller and poptorootcontroller methods.
-Had a lot of fun!
+I probably spent 80% of the project trying to get the photos to rotate, scale, and animate
 
 Walkthrough of all user stories:
 
