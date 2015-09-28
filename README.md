@@ -42,6 +42,6 @@ I probably spent 80% of the project trying to get the photos to rotate, scale, a
 
 Walkthrough of all user stories:
 
-![camerons_dropbox](camerons_dropbox.gif)
+![camerons_carousel](carousel1.gif)
 
 
