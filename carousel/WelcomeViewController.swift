@@ -23,7 +23,7 @@ class WelcomeViewController: UIViewController, UIScrollViewDelegate {
 
         // Do any additional setup after loading the view.
         
-        welcomeScrollView.contentSize = CGSize(width: 1280, height: 320)
+        welcomeScrollView.contentSize = CGSize(width: 1280, height: 568)
         welcomeScrollView.delegate = self
         
         pageControl.alpha = 1
