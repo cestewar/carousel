@@ -89,8 +89,7 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
         imageTile2.center.x = 270
         imageTile2.center.y = 540
         imageTile2.transform = CGAffineTransformRotate(CGAffineTransformScale(imageTile2.transform, 2, 2), CGFloat(-8 * M_PI / 180))
-        /*imageTile2.transform = CGAffineTransformRotate(imageTile2.transform, CGFloat(-8 * M_PI / 180))
-        imageTile2.transform = CGAffineTransformScale(imageTile2.transform, 2, 2)*/
+        
         
         //assign CGPoint # to image's center
         imageTile2OriginalPosition = imageTile2.center
